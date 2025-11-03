@@ -14,7 +14,7 @@ Each data column is categorized and reasoning for each classification is given.
 <img width="288" height="149" alt="classification summary" src="https://github.com/user-attachments/assets/ede14a9a-1a81-468a-868e-b662fb676380" />
 
 # Evaluation
-Velocity: 10 seconds to output generation. Accurate run time depends on the volume of data. I tested datasets ranging from 50-500 rows.
+Velocity: 3 seconds to output generation. Accurate run time depends on the volume of data. For a dataset with 50 rows 9 columns, took 3s. For 500 rows and 122 columns took 30s.
 Consistency: CV = 0.031
 
 Coefficient of Variation (CV) = (Standard Deviation) ÷ (Mean)
