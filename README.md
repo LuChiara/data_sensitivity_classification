@@ -22,29 +22,3 @@ Lower CV → higher consistency.
 
 Value: Spent < CA$0.3 on ~10 runs of the demo notebook
 
-
-
-
-# Raw Data Preview
-I used a data faker to generate synthetic data:
-<img width="1684" height="191" alt="synthetic user records" src="https://github.com/user-attachments/assets/5d9e57c6-f3aa-4379-a6fc-77f7e75fca55" />
-
-
-# Outputs
-Each data column is categorized and reasoning for each classification is given.
-<img width="1365" height="269" alt="classification results" src="https://github.com/user-attachments/assets/06f2eb8e-c49a-4e5e-8d6f-4492faf4bb23" />
-<img width="288" height="149" alt="classification summary" src="https://github.com/user-attachments/assets/ede14a9a-1a81-468a-868e-b662fb676380" />
-
-# Evaluation
-Velocity: 10 seconds to output generation. Accurate run time depends on the volume of data. I tested datasets ranging from 50-500 rows.
-Consistency: CV = 0.031
-
-Coefficient of Variation (CV) = (Standard Deviation) ÷ (Mean)
-Lower CV → higher consistency.
-
-Value: Spent < CA$0.3 on ~10 runs of the demo notebook
-
-
-
-
-
